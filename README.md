@@ -6,7 +6,7 @@ images doees not support sm75 and sm89.
 ## Build
 
 ```bash
-% docker image build -e SM_NUMBER=sm_89 -t lammps-docker:0.1 .
+% docker image build --build-arg SM_NUMBER=sm_89 -t lammps-docker:0.1 .
 ```
 
 ## Usage
